@@ -1,0 +1,81 @@
+.chat-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+.chat-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddada;
+  height: 11vh;
+  margin-left: 2%;
+}
+.chat-info {
+  margin-left: 2%;
+  flex: 1;
+  padding: 10px;
+  line-height: 20%;
+}
+.chat-header-option {
+  display: flex;
+  margin-right: 10px;
+}
+.chat-body {
+  background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+  flex: 1;
+  margin: 15px;
+  background-position: center;
+  padding: 10px;
+  overflow: scroll;
+}
+.chat-recieve {
+  width: fit-content;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.chat-name {
+  font-size: small;
+  top: -20px;
+  position: absolute;
+  font-weight: 600;
+}
+.chat-time {
+  color: rgb(180, 175, 175);
+  margin-left: 10px;
+  font-size: x-small;
+}
+.chat-send {
+  background-color: rgb(77, 224, 163);
+  margin-left: auto;
+}
+.send-message {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.send-message > form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.send-message > form > input {
+  margin-left: 10px;
+  border: none;
+  border-radius: 12px;
+  outline-width: 0;
+  flex: 1;
+  height: 5vh;
+  text-indent: 10px;
+}
+.send-message > form > button {
+  display: none;
+}
+.send-message > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
